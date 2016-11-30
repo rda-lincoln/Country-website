@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Indonesia </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/indonesia1.css">
+    
+    
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    -->
+
+
+	<script>
+		 function myFunction()
+		 {
+		 document.getElementById("capital").innerHTML="The capital city of Indonesia is Jakarta, population about 9600000";
+		 }
+		 function alertFunction()
+		 {
+		 alert("Indonesia comprises approxmately 17,508 islands");
+		 }
+	 </script>
+
+</head>
+
+<body>
+	<div id="wrapper" class="container">
+		<div id="header" class="page-header">
+			<h1>Indonesia</h1>
+		
+		</div>
+		<div class="container-fluid">
+            
+            <div class="row">
+                <div id = "nav" class="col-sm-4">                    
+                    <ul class="nav nav-stacked nav-pill">
+                        <li class="active"><a href="index.html"> Key facts</a></li>
+                        <li><a href="economy.html">Economy</a></li>
+                        <li><a href="cimate.html">Climate</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="accomodation.html">Accommodation</a></li>
+                        <li><a href="indonesiaQuiz.html">Take the quiz</a></li>
+                    </ul>                   
+                </div>
+            
+                <div id="content" class="col-sm-8">
+                    <div class = "mycenter" onmouseover="alertFunction()">   
+                        <img class="img-responsive img-rounded" src = "images/indonesia.jpg"> 
+                    </div>
+                    <span class = "mycenter">	<img class="img-thumbnail" src = "images/map.png" height="119"> 
+                        <img src = "images/indon1.png"> 
+                        <img src = "images/indon2.png">
+                    </span>
+                    <br>	
+                    <br>
+                    <p id="capital">Do you know what the capital of Indonesia is?</p>
+                    <button type="button" onclick="myFunction()">Click here</button>
+                </div>
+            </div>
+        </div>
+		
+
+        <div class="row">
+            <div id="footer" class="container col-sm-12">
+
+            </div>
+        </div>
+
+	</div>
+</body>
+</html>

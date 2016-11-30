@@ -1,0 +1,61 @@
+/* note: container has been renamed wrapper to aviod confusion with bootstrap classes */
+#wrapper{
+	background-color:grey;
+}
+	
+#header{
+	height:75px;
+    padding-top: 2px;
+	background:#ff0000;
+	font-family:"arial";
+	font-size:45px;
+	text-align:center;
+	color: white;
+}
+
+#nav{
+	min-height:420px;
+	background-color:grey;
+	font-family:"arial";
+	color:black;
+	font-size:28px;
+}
+
+#content{
+	min-height:400px;
+	background-color:#ffffff;
+    font-size:14px;
+    color:black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+		
+}
+#footer{
+	height:90px;
+	background-color:#ff0000;
+} 
+
+.mycenter {
+	display: block;
+	margin: auto;
+	text-align:center;
+}
+
+body
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	}
+
+li
+{
+    color:blue;
+    font-size:20px;
+    padding-top: 25px;
+}
+
+a:link 
+{
+    color:yellow;
+} 
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html >
+
+<html>
+<head>
+<title> Indonesia Quiz </title>
+<link rel = "stylesheet" type = "text/css" href = "Indonesia.css" />
+
+<script>
+
+var score = 0;
+
+function check1()
+{
+if (document.getElementById("bali").checked)
+   {
+   alert("Sorry, no");
+   }
+ else if (document.getElementById("jakarta").checked)
+   {
+   alert("Well done! You are correct");
+   score = score + 1;
+   }
+ else if (document.getElementById("kl").checked)
+   {
+    alert("Sorry, no");
+   }
+    else if (document.getElementById("lombok").checked)
+   {
+   alert("Sorry, no");
+   }
+    document.getElementById("btnQ1").disabled=true;
+     window.location.href="#Q2";
+}
+
+function check2()
+{
+ if (document.getElementById("one").checked)
+   {
+   alert("Sorry, no");
+   }
+ else if (document.getElementById("two").checked)
+   {
+   alert("Sorry, no");
+
+   }
+ else if (document.getElementById("three").checked)
+   {
+    alert("Sorry, no");
+   }
+    else if (document.getElementById("four").checked)
+   {
+   alert("Well done! You are correct");
+      score = score + 1;
+   }
+      document.getElementById("btnQ2").disabled=true;
+	 alert("You have " + score + " questions correct"); 
+	 
+
+}
+
+ </script>
+ 
+</head>
+
+<body>
+	
+	<div id="container">
+			<div id="header">
+		<h1>	Welcome to the Indonesia Quiz  </h1>
+			
+	</div>
+			
+			<div id="nav">
+			<ul>
+			<li><a href="Index.html"> Key facts</a>
+			<li><a href="CraneStancs.html">Economy</a>
+			<li><a href="TigerStance.html">Climate</a>
+			<li><a href="SnakeStance.html">Sports</a>
+			<li><a href="Rules.html">Accommodation</a>
+			<li><a href="IndonesiaQuiz.html">Take the quiz</a>
+			</ul>
+			</div>
+			
+			<div id="content">
+		<h1>Question 1</h1>
+ 
+<form>
+What is the capital city of Indonesia ?<br>
+<input type="radio" name="Q1" id="bali">Bali<br>
+<input type="radio" name="Q1" id="jakarta">Jakarta<br>
+<input type="radio" name="Q1" id="kl">Kuala Lumpur<br>
+<input type="radio" name="Q1" id="lombok">Lombok<br><br>
+
+
+<button type="button" onclick="check1()" id="btnQ1">Check your answer</button>
+
+<br><br>
+
+<div id="Q2">		<h1>Question 2</h1>
+
+How many islands make up the country of Indonesia ?<br>
+<input type="radio" name="Q2" id="one">58<br>
+<input type="radio" name="Q2" id="two">212<br>
+<input type="radio" name="Q2" id="three">1006<br>
+<input type="radio" name="Q2" id="four" value="four">17508<br><br>
+
+
+<button type="button" onclick="check2()" id="btnQ2">Check your answer</button>
+</div>
+<br><br>
+
+</form>
+
+		</div>
+			
+
+	</div>
+					<div id="footer">
+		
+		</div>	
+
+
+</body>
+
+</html>

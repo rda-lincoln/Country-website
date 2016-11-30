@@ -1,0 +1,87 @@
+/* note: container has been renamed wrapper to aviod confusion with bootstrap classes */
+#wrapper{
+	width:1200px;
+	background-color:grey;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	}
+	
+#header{
+	width:1200px;
+	height:75px;
+	background:#ff0000;
+	font-family:"arial";
+	font-size:45px;
+	text-align:center;
+	color: white;
+	padding: 15px 0 0 0;
+    position:fixed;
+    left:0px;
+    top:0px;
+
+}
+#nav{
+	width:200px;
+	min-height:420px;
+	background-color:grey;
+	float:left;
+	font-family:"arial";
+	color:black;
+	font-size:28px;
+	padding-bottom: 15px;
+    padding-top: 85px;
+}
+
+#content{
+	/*width:900px;*/
+	min-height:400px;
+	background-color:#ffffff;
+    font-size:14px;
+    color:black;
+	/*float:right;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+		
+}
+#footer{
+	width:1200px;
+	height:90px;
+	background-color:#ff0000;
+	clear:both;
+}
+
+.mycenter {
+	display: block;
+	margin: auto;
+	text-align:center;
+
+}
+
+body
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	}
+
+
+ul
+ {
+ list-style-type: none;
+ padding: 0px;
+ margin: 10px 0 0 10px ;
+ list-style-position; 0px;
+
+ }*/
+ 
+li
+{
+font-size:20px;
+padding-top: 25px;
+}
+
+a:link 
+{
+text-decoration:none;
+color:yellow;
+} 
+
